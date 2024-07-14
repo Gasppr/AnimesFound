@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.container{
+  font-family: "Istok Web", sans-serif;
+
+  span{
+    font-size: 60px;
+    font-weight: 600;
+  }
+}
+
+.news{
+  display: flex;
+  flex-direction: column;
+  gap: 40px
+}
+
+.notice{
+  display: flex;
+  flex-direction: row;
+  height: 260px;
+  gap: 45px;
+
+
+  img{
+    width: 360px;
+  }
+
+  .text{
+
+    font-size: 50px;
+    margin-right: 30px;
+  }
+
+}
