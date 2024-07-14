@@ -1,0 +1,45 @@
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -ms-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+
+.accordion{
+  margin-top: 45px;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 500px;
+
+    &::before {
+      content: "";
+      display:block;
+      width:0;
+      height:100%;
+      @include transition(all .5s ease-in-out);
+    }
+
+  display: flex;
+    flex-direction: row;
+
+  img{
+    float: left;
+    width: 30%;
+    height: 100%;
+
+    opacity: 0.5;
+    @include transition(all .5s ease-in-out);
+    &:hover,
+    &:first-child ~ li:last-child {
+      width: 40%;
+      opacity: 1;
+      @include transition(all .5s ease-in-out);
+     }
+
+  }
+
+
+
+
+}
