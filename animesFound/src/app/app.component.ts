@@ -5,6 +5,7 @@ import { SlideMenuComponent } from './components/slide-menu/slide-menu.component
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     RouterOutlet,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    IntroComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
