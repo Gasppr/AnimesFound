@@ -11,14 +11,29 @@ section{
   flex-direction: row;
   margin-top: 100px;
   padding-top: 40px;
-  gap: 200px;
+
+  justify-content: space-between;
+}
+
+.networks{
+  padding-left: 117px;
+  padding-right: 310px;
+}
+
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 207px;
 
 }
 
 .pages{
   display: flex;
   flex-direction: column;
-  gap: 10px
+  gap: 10px;
+  padding-right: 357px;
 }
 
 
