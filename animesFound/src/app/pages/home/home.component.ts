@@ -6,18 +6,17 @@ import { AccordionComponent } from '../../components/accordion/accordion.compone
 import { NewsComponent } from '../../components/news/news.component';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [
-    SlideMenuComponent,
-    SideMenuComponent,
-    CarouselComponent,
-    AccordionComponent,
-    NewsComponent
-  ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
-  schemas:[CUSTOM_ELEMENTS_SCHEMA]
+    selector: 'app-home',
+    imports: [
+        SlideMenuComponent,
+        SideMenuComponent,
+        CarouselComponent,
+        AccordionComponent,
+        NewsComponent
+    ],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss',
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HomeComponent {
 
