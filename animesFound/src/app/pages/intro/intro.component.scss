@@ -13,11 +13,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 360px;;
+  gap: 300px;;
   -webkit-text-stroke: 0.5px white;
 
   .logo{
-    padding-left: 32px;
+    padding-left: 30px;
     background: transparent;
     img{
       background: transparent;
@@ -28,7 +28,7 @@
     height: 65px;
     width: 330px;
     background: transparent;
-    margin-left: 100px;
+    margin-left: 10px;
     border: 3px solid #0043FF;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@
     height: 65px;
     width: 220px;
     border: 3px solid #ffff;
-    margin-left: 100px;
+    margin-left: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +101,7 @@
   text-align: left;
   align-content: center;
   width: 800px;
-  height: 365px;
+  height: 310px;
   font-weight: bold;
   font-size: 45px;
  }

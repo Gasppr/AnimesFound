@@ -8,7 +8,7 @@
 .accordion{
   margin-top: 45px;
 
-  margin-left: 50px;
+  margin-left: 80px;
   margin-right: 50px;
   height: 500px;
 
@@ -25,16 +25,16 @@
 
   img{
     float: left;
-    width: 30%;
+    width: 23%;
     height: 100%;
 
     opacity: 0.5;
-    @include transition(all .5s ease-in-out);
+    @include transition(all .2s ease-in-out);
     &:hover,
     &:first-child ~ li:last-child {
-      width: 40%;
+      width: 48%;
       opacity: 1;
-      @include transition(all .5s ease-in-out);
+      @include transition(all .2s ease-in-out);
      }
 
   }
