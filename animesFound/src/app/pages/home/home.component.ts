@@ -7,9 +7,9 @@ import { NewsComponent } from '../../components/news/news.component';
 
 @Component({
     selector: 'app-home',
+    standalone:true,
     imports: [
         SlideMenuComponent,
-        SideMenuComponent,
         CarouselComponent,
         AccordionComponent,
         NewsComponent

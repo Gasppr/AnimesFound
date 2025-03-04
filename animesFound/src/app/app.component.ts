@@ -11,9 +11,7 @@ import { IntroComponent } from './pages/intro/intro.component';
     selector: 'app-root',
     imports: [
         RouterOutlet,
-        HomeComponent,
-        FooterComponent,
-        IntroComponent
+        FooterComponent
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss'
